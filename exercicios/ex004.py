@@ -1,0 +1,7 @@
+a = input('digite algo: ')
+print('{} É composto só por numeros?'.format(a),a.isnumeric())
+print('{} É composto só por espaços?'.format(a),a.isspace())
+print('{} Só tem letras?'.format(a),a.isalpha())
+print('{} Tem em letras minusculas?'.format(a),a.islower())
+print('{} Tem em letras maiusculas?'.format(a),a.isupper())
+print('{} Tem letras e numeros?'.format(a),a.isalnum())
