@@ -4,5 +4,8 @@ def fatorial(n):
         tot *= c
     return tot
 
-# num = int(input('Digite um numero: '))
-# print(fatorial(num))
+def dobro(n):
+    return n*2
+
+def triplo(n):
+    return n*3

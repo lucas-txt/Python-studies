@@ -1,0 +1,3 @@
+lucas;15
+pedro;13
+josé da silva;56
