@@ -22,7 +22,7 @@ No python toda variável é um objeto
     
 - caso seja necessário inserir variáveis no meio de mensagens pode-se usar o comando `.format()` para ter mais praticidade
     
-    ![Untitled](Minhas%20anotac%CC%A7o%CC%83es%20em%20python%2096b6d01cc65d43ed8bedec77562ef6df/Untitled.png)
+    ![Untitled](readme-images/Untitled.png)
     
 
 ## Tratando dados e fazendo contas
@@ -110,21 +110,21 @@ para instalar uma biblioteca basta procurar a desejada no site [python.org](http
 
 As condições em python funcionam com a seguinte estrutura: se o que vem após o `if` for verdadeiro o primeiro bloco é executado e o segunda é ignorado, porem se a condição for falsa o primeiro bloco é ignorado e o segundo executado. Após isso o codigo segue normalmente.
 
-![Untitled](Minhas%20anotac%CC%A7o%CC%83es%20em%20python%2096b6d01cc65d43ed8bedec77562ef6df/Untitled%201.png)
+![Untitled](readme-images/Untitled%201.png)
 
 E também existe a versão simplificada para usos mais específicos, ou a opção de usar apenas o `if` e não utilizar o `else`.
 
-![Untitled](Minhas%20anotac%CC%A7o%CC%83es%20em%20python%2096b6d01cc65d43ed8bedec77562ef6df/Untitled%202.png)
+![Untitled](readme-images/Untitled%202.png)
 
 ## cores no terminal
 
 `\033[0;33;44m` pode ser usando dentro das aspas de um `print` para aplicar o estilo selecionado até o próximo seletor de cor(se não existir mais um esse será aplicado do ponto que esta até o final). Esse comando serve para colocar cores no terminal, o primeiro 033 é por padrão do comando e os três números seguintes servem para configurar **estilo da fonte**, **cor da letra**, **cor de fundo**
 
-![Untitled](Minhas%20anotac%CC%A7o%CC%83es%20em%20python%2096b6d01cc65d43ed8bedec77562ef6df/Untitled%203.png)
+![Untitled](readme-images/Untitled%203.png)
 
 Também pode-se usar o `.format` para inserir os códigos de cor como mostra abaixo 
 
-![Untitled](Minhas%20anotac%CC%A7o%CC%83es%20em%20python%2096b6d01cc65d43ed8bedec77562ef6df/Untitled%204.png)
+![Untitled](readme-images/Untitled%204.png)
 
 - estilos de fonte
     - 0 padrão
@@ -171,7 +171,7 @@ print('tenha um bom dia {} '.format(nome))
 
 Uma estrutura de repetição serve para fazer um comando se repetir varias vezes se necessário, como se mostra abaixo, onde o comando `passo` será executado 10 vezes antes do comando `pega` ser executado
 
-![Untitled](Minhas%20anotac%CC%A7o%CC%83es%20em%20python%2096b6d01cc65d43ed8bedec77562ef6df/Untitled%205.png)
+![Untitled](readme-images/Untitled%205.png)
 
 também pode haver um terceiro numero fazendo com que o comando fique assim `for c in range(1, 10, 2)` que faria com que o comando pule de dois em dois ou o  `for c in range(10, 0, -1)` que faz com que aconteça de trás pra frente. Esse terceiro numero é o passo que deve ser usado
 
@@ -182,11 +182,11 @@ também pode haver um terceiro numero fazendo com que o comando fique assim `for
     - a posição de cada comida em lanche
     - a posição e o valor de cada comida em lanche
 
-![Untitled](Minhas%20anotac%CC%A7o%CC%83es%20em%20python%2096b6d01cc65d43ed8bedec77562ef6df/Untitled%206.png)
+![Untitled](readme-images/Untitled%206.png)
 
 - Abaixo temos um laço de dicionario que retorna as chaves e os valores
 
-![Untitled](Minhas%20anotac%CC%A7o%CC%83es%20em%20python%2096b6d01cc65d43ed8bedec77562ef6df/Untitled%207.png)
+![Untitled](readme-images/Untitled%207.png)
 
 ## repetição
 
@@ -310,7 +310,7 @@ para criar uma função usasse o comando `def Função():` e se adiciona o bloco
     
 - gera esse resultado
     
-    ![Untitled](Minhas%20anotac%CC%A7o%CC%83es%20em%20python%2096b6d01cc65d43ed8bedec77562ef6df/Untitled%208.png)
+    ![Untitled](readme-images/Untitled%208.png)
     
 
 Mas também é possível fazer funções personalizadas que são adeptas a valores, como vemos abaixo
@@ -329,7 +329,7 @@ Mas também é possível fazer funções personalizadas que são adeptas a valor
     
 - gera esse resultado
     
-    ![Untitled](Minhas%20anotac%CC%A7o%CC%83es%20em%20python%2096b6d01cc65d43ed8bedec77562ef6df/Untitled%209.png)
+    ![Untitled](readme-images/Untitled%209.png)
     
 
 Também existe a opção de definir os parâmetros em uma ordem diferente da que foi configurada de inicio mudando o `soma(2, 8)` para `soma(b=8, a=2)` que nesse caso não faz diferença mas é uma possibilidade. E se você quiser fazer uma função que sem um numero fixo de parâmetros, é só usar o comando `def contador(*num):` que vai fazer com que todos os parâmetros sejam adicionados dentro de uma tupla chamada num. E ainda existe a possibilidade de fazer funções com parâmetros opcionais, veja abaixo:
@@ -412,7 +412,7 @@ Um erro na linguagem de python é apenas quando a um erro sintático, se o erro 
     
 - ilustração
     
-    ![Untitled](Minhas%20anotac%CC%A7o%CC%83es%20em%20python%2096b6d01cc65d43ed8bedec77562ef6df/Untitled%2010.png)
+    ![Untitled](readme-images/Untitled%2010.png)
     
 
 # Auto didatismo
@@ -475,7 +475,7 @@ O scrapy é um framework que permite a coleta de dados de sites online. A docume
 
 - `scrapy startproject MeuProjeto` cria um novo projeto no diretório atual com a estrutura de pastas do framework
     
-    ![Untitled](Minhas%20anotac%CC%A7o%CC%83es%20em%20python%2096b6d01cc65d43ed8bedec77562ef6df/Untitled%2011.png)
+    ![Untitled](readme-images/Untitled%2011.png)
     
 
 Após isso podemos criar spiders que são objetos com funções de coleta de dados do site, criamos uma spider usando o comando `scrapy genspider Nome SiteEscolhido.com` no diretório do projeto. Porem alguns sites negam o acesso deste tipo de biblioteca então é preciso simular um usuário real, fazemos isso adicionando a linha `USER_AGENT = {qualquer um do link a baixo}` no arquivo `setting.py` do projeto.
